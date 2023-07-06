@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Centro Automotivo Aleinjetcar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Centro Automotivo Aleinjetcar</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+            <li><a href="#">telefone</a></li>
+
+
+        </ul>
+    </nav>
+
+    <main>
+        <section id="services">
+            <h2>Nossos Serviços</h2>
+            <ul>
+                <li>Manutenção Preventiva</li>
+                <li>Revisões</li>
+                <li>Reparos em Geral</li>
+                <li>Troca de Óleo</li>
+                <li>Alinhamento e Balanceamento</li>
+            </ul>
+        </section>
+
+        <section id="about">
+            <h2>Sobre Nós</h2>
+            <p>...</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contato</h2>
+            <form>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name">
+                 
+                <label for="carro">carro:</label>
+                <input type="modelo" id="carro" name="carro">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+                 
+                <label for="telefone">telefone:</label>
+                <input type="telefone" id="telefone" name="telefone">
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Centro Automotivo &copy; 2022</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+          <h2>ORDEM DE SERVIÇO - Aleinjetcar</h2>
+    
+    <form method="post" action="<?php $_PHP_SELF ?>">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+    
+        <label for="telefone">Telefone:</label>
+        <input type="text" id="telefone" name="telefone" required><br><br>
+    
+        <label for="servico">Serviço:</label>
+        <input type="text" id="servico" name="servico" required><br><br>
+    
+        <label for="peça">peça:</label>
+        <input type="text" id="peça" name="peça" required><br><br>
+    
+        <label for="carro">Carro:</label>
+        <input type="text" id="carro" name="carro" required><br><br>
+    
+        <label for="valor">Valor:</label>
+        <input type="number" id="valor" name="valor" required><br><br>
+    
+        <input type="submit" value="Cadastrar">
+    </form>
+    <footer>
+        <p>Centro Automotivo &copy; 2022</p>
+    </footer>
+
+    </body>
+    </html>
+
